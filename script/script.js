@@ -19,3 +19,16 @@ dropdown_services.addEventListener('mouseout',function(){
    
 });
 
+var nav_items=document.querySelector('.nav-items');
+
+function showMenu()
+{
+    if(nav_items.style.display=="none")
+    {
+        nav_items.style.display="flex";
+    }
+    else{
+        nav_items.style.display="none"
+    }
+}
+
